@@ -55,7 +55,6 @@ body {
                     width: 100%;
                     .mega-content {
                         height: auto;
-                        overflow-y: scroll;
                         .inner_title {
                             text-align: right !important;
                             margin-bottom: 20px;
@@ -114,6 +113,11 @@ body {
                         button {
                             max-width: 110px !important;
                         }
+                    }
+                    .scrollbar {
+                        max-height: 650px;
+                        overflow-x: hidden;
+                        overflow-y: auto;
                     }
                 }
                 .btn_white {

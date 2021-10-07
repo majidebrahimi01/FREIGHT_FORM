@@ -97,7 +97,6 @@ body .navbar .navbar-nav .nav-item .dropdown-menu {
 
 body .navbar .navbar-nav .nav-item .dropdown-menu .mega-content {
   height: auto;
-  overflow-y: scroll;
 }
 
 body .navbar .navbar-nav .nav-item .dropdown-menu .mega-content .inner_title {
@@ -178,6 +177,12 @@ body .navbar .navbar-nav .nav-item .dropdown-menu .mega-content .sublink input[t
 
 body .navbar .navbar-nav .nav-item .dropdown-menu .mega-content button {
   max-width: 110px !important;
+}
+
+body .navbar .navbar-nav .nav-item .dropdown-menu .scrollbar {
+  max-height: 650px;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 body .navbar .navbar-nav .nav-item .btn_white {
