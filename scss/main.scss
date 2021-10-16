@@ -474,3 +474,28 @@ img {
         margin: 0 0 30px;
     }
 }
+
+////////////////////////////////////////////
+////////////////////////////////////////////
+////////////////////////////////////////////
+.top_menu {
+    display: flex;
+    justify-content: space-between;
+    .left_menu {
+        margin: 10px;
+    }
+    .right_menu {
+        .register {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            li {
+                margin: 10px 0 10px 10px;
+                a {
+                    text-decoration: none;
+                    color: currentColor;
+                }
+            }
+        }
+    }
+}
